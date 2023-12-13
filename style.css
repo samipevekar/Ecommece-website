@@ -203,8 +203,10 @@ nav{
     display: flex;
     flex-direction: column;
     -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
-  display: none;
+    box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+    display: none;
+
+  
 }
 
 .payTitle{
@@ -217,7 +219,7 @@ label{
 }
 .payInput{
     padding: 10px;
-    margin: 10px 0px;
+    margin: 10px 10px;
     border: none;
     border-bottom: 1px solid gray;
 
@@ -336,3 +338,112 @@ label{
     background-color: white;
     color: black;
 }
+
+.gallery{
+    padding: 50px;
+    display: flex;
+
+}
+
+.galleryItem{
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.galleryImg{
+    width: 100%;
+}
+
+.newSeason{
+    display: flex;
+
+}
+.nsItem{
+    flex: 1;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.nsImg{
+    width: 100%;
+    height: 500px;
+
+}
+
+.nsTitle{
+    font-size: 40px;
+}
+
+.nsButton{
+    padding: 15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+
+}
+
+.footerLeft{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.fMenuTitle{
+    font-size: 16px;
+
+}
+.fList{
+    padding: 0;
+    list-style: none;
+}
+.fListItem{
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+.footerRight{
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fInput{
+    padding: 5px;
+
+}
+.fButton{
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.fIcons{
+    display: flex;
+
+}
+.fIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.copyright{
+    font-weight: 300;
+    font-size: 14px;
+    
+}
+
