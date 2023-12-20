@@ -37,6 +37,8 @@ nav{
     font-size: 20px;
     border-bottom: 2px solid green;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -278,6 +280,8 @@ label{
 
 }
 
+
+
 .productImg{
     width: 50%;
 }
@@ -339,6 +343,55 @@ label{
     color: black;
 }
 
+
+.mainProducts{
+    background-color: whitesmoke;
+}
+.cards img{
+    width: 180px;
+    background-color: white;
+    border-radius: 10px;
+    height: 180px;
+
+}
+.data{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards h3{
+    text-align: center;
+}
+
+.cards{
+    box-shadow: 0px 0px 5px ;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 40px;
+    background-color: rgb(225, 223, 223);
+}
+.cards button{
+    height: fit-content;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    
+
+}
+.cards button:hover{
+    color: black;
+    background-color: white;
+}
+.mainCards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .gallery{
     padding: 50px;
     display: flex;
@@ -556,4 +609,6 @@ footer{
         margin-bottom: 550px;
     }
 }
+
+
 
