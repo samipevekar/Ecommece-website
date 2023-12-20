@@ -352,7 +352,11 @@ label{
     background-color: white;
     border-radius: 10px;
     height: 180px;
+    transition: all 1s;
 
+}
+.cards img:hover{
+    transform: scale(1.1);
 }
 .data{
     display: flex;
@@ -370,6 +374,10 @@ label{
     padding: 20px;
     margin: 40px;
     background-color: rgb(225, 223, 223);
+    transition: all 1s;
+}
+.cards:hover{
+    transform: translatey(-10px);
 }
 .cards button{
     height: fit-content;
